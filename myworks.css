@@ -1,0 +1,115 @@
+.description-h1-before-content {
+  margin-bottom: 1%;
+  font-size: 0.8rem;
+  background-color: rgba(128, 127, 127, 0.113);
+  color: bisque;
+  opacity: initial;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.projects-myworks h3 {
+  padding-bottom: 1rem;
+  color: #ffe4c4fa;
+  text-align: center;
+  padding: 0.1rem;
+  font-size: 1.6rem;
+}
+
+.projects-myworks img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.projects-myworks a,
+a:hover,
+a:focus,
+a:active {
+  text-align: center;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #ffe4c4;
+  display: block;
+  background-color: #ffe4c410;
+  margin-top: 2.0rem;
+  border-radius: 5rem;
+}
+
+.projects-myworks img {
+  position: block;
+  border: 1px solid #000;
+  overflow: hidden;
+  width: center;
+  margin: center;
+  max-width: 245px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border: none;
+}
+
+.projects-myworks img {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.projects-myworks img:hover {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(3);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 200;
+  background-color: #ffe4c410;
+  color: #ffe4c4fa;
+  border-radius: 5px;
+}
+
+@media screen and (width: 240px) {
+  .projects-myworks, img {
+    -moz-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+}
+
+@media screen and (width: 240px) {
+  .projects-myworks, h1{
+    display: block;
+    max-height: 0%;
+    font-size: 100%;
+  }
+}
+
+@media screen and (width: 240px) {
+  .projects-myworks, footer{
+    display: block;
+    max-width: 250%;
+    max-height: 250%;
+  }
+}
+
+@media screen and (width: 320px) {
+  .projects-myworks, footer{
+    -moz-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-myworks,h1, div{
+    font-size: 20px;
+    max-width:auto;
+    max-height:auto;
+    width: auto;
+    height: auto;
+  }
+}
+

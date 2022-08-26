@@ -1,0 +1,332 @@
+:root,h1{
+    font-size: 1rem;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main-container>h1 {
+    font-size: 7rem;
+    margin-bottom: 1%;
+    color: bisque;
+    opacity: initial;
+    text-align: center;
+    border-radius: 7px;
+    width: auto;
+    height: auto;
+}
+
+.main-menu {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main-menu>a>button {
+    background-color: #ffe4c410;
+    justify-content: center;
+    margin-right: 0.2rem;
+    border-radius: 7px;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    color: #ffe4c4;
+    border: none;
+}
+
+.main-menu>a>button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 228, 196, 0.125)
+}
+
+.footer{
+    margin-left: 25%;
+    font-size: 1rem;
+    margin-top: 20rem;
+    width: 50%;
+}
+
+@media screen and (min-width: 100px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 4.6rem;
+    }
+}
+
+@media screen and (min-width: 468px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 3.0rem;
+    }
+}
+
+@media screen and (width: 375px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 5.0rem;
+    }
+}
+
+@media screen and (width: 240px) {
+    .main-container>.header-title {
+        justify-items: center;
+        text-align: center;
+        font-size: 3.4rem;
+    }
+}
+
+@media screen and (width: 280px) {
+    body>.main-menu a>button {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        font-size: 1.0rem;
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (width: 480px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 4.5rem;
+        padding-left: 5%;
+        padding-top: 35%;
+        justify-items: center;
+    }
+}
+
+@media screen and (width: 412px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 4.5rem;
+        padding-left: 5%;
+        padding-top: 100%;
+        justify-items: center;
+    }
+}
+
+@media screen and (width: 375px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 4.5rem;
+        padding-left: 5%;
+        padding-top: 51%;
+        justify-items: center;
+    }
+}
+
+@media screen and (width: 390px) {
+    .main-container>.header-title {
+        font-size: 4.4rem;
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (width: 393px) {
+    .main-container>.header-title {
+        width: 100%;
+        font-size: 4.4rem;
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (width: 320px) {
+    .main-container>.header-title {
+        margin-left: 2.5%;
+        font-size: 4.5rem;
+        margin-right: 5rem;
+        padding-top: 35%;
+    }
+}
+
+@media screen and (width: 353px) {
+    .main-container>.header-title {
+        margin-left: 2.5%;
+        font-size: 5rem;
+        margin-right: 5rem;
+        padding-top: 35%;
+    }
+}
+
+@media screen and (width: 354px) {
+    .main-container>.header-title {
+        margin-left: 2.5%;
+        font-size: 5rem;
+        margin-right: 5rem;
+        padding-top: 25%;
+    }
+}
+
+@media screen and (width: 360px) {
+    .main-container>.header-title {
+        width: 100%;
+        font-size: 5rem;
+        padding-top: 37%;
+    }
+}
+
+@media screen and (width: 384px) {
+    .main-container>.header-title {
+        width: 100%;
+        font-size: 5rem;
+        padding-top: 26%;
+    }
+}
+
+@media screen and (width: 411px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 5rem;
+        padding-top: 46%;
+    }
+}
+
+@media screen and (width: 412px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 5rem;
+        padding-top: 45%;
+    }
+}
+
+@media screen and (width: 414px) {
+    .main-container>.header-title {
+        justify-items: center;
+        font-size: 5rem;
+        padding-top: 45%;
+    }
+}
+
+@media screen and (width: 540px) {
+    .main-container>.header-title {
+        padding-top: 26%;
+        font-size: 5rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width: 600px) {
+    .main-container>.header-title {
+        font-size: 5rem;
+        padding-top: 30%;
+        width: 101%;
+    }
+}
+
+@media screen and (width: 640px) {
+    .main-container>.header-title {
+        font-size: 5rem;
+        padding-top: 1%;
+        width: 102%;
+    }
+}
+
+@media screen and (width: 800px) {
+    .main-container>.header-title {
+        padding-top: 20%;
+        font-size: 9.0rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width: 820px) {
+    .main-container>.header-title {
+        padding-top: 15%;
+        font-size: 9.0rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width: 712px) {
+    .main-container>.header-title {
+        padding-top: 30%;
+        font-size: 5.0rem;
+        width: 101%;
+    }
+}
+
+@media screen and (width: 768px) {
+    .main-container>.header-title {
+        padding-top: 20%;
+        font-size: 9.0rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width: 912px) {
+    .main-container>.header-title {
+        padding-top: 25%;
+        font-size: 9.0rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .main-container>.header-title {
+        padding-top: 12% ;
+        font-size: 9.0rem;
+        width: 100%;
+    }
+}
+
+@media screen and (width: 1280px) {
+    .main-container>.header-title {
+        padding-top:13% ;
+        margin: 12px;
+        font-size: 9.0rem;
+        width: 98%;
+    }
+}
+
+/* 1080 Aspect Ratio */
+@media screen and (width: 1920px) {
+    .main-container>.header-title {
+        padding-top: 7rem;
+        padding-right: center;
+        font-size: 8rem;
+        padding-bottom: 0.1rem;
+        max-width: 100%;
+        justify-items: center;
+        background-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* 2560 Aspect Ratio */
+@media screen and (width: 2560px) {
+    .main-container>.header-title {
+        font-size: 10rem;
+        padding-right: center;
+        max-width: 100%;
+        justify-items: center;
+        background-position: center;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Buttons */
+@media screen and (max-width: 768px) {
+    .main-menu>a>button {
+        padding-top: 1%;
+        margin: 2.5rem;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-menu>a>button {
+        display: inline-block;
+        font-size: 1.2rem;
+        margin: 0.5rem;
+        width: 100%;
+    }
+}
