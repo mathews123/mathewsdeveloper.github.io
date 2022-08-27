@@ -1,19 +1,20 @@
 .description-h1-before-content {
-  margin-bottom: 1%;
-  font-size: 0.8rem;
+  display: block;
+  font-size: 1.0rem;
   background-color: rgba(128, 127, 127, 0.113);
   color: bisque;
   opacity: initial;
   text-align: center;
+  margin-top: 5rem;
   border-radius: 7px;
 }
 
 .projects-myworks h3 {
-  padding-bottom: 1rem;
   color: #ffe4c4fa;
   text-align: center;
-  padding: 0.1rem;
   font-size: 1.6rem;
+  margin-top: 5%;
+  background-color: #ffe4c410;
 }
 
 .projects-myworks img {
@@ -28,26 +29,22 @@ a:hover,
 a:focus,
 a:active {
   text-align: center;
-  font-size: 0.9rem;
-  text-decoration: none;
+  font-size: 1.2rem;
+  text-decoration: underline;
   color: #ffe4c4;
   display: block;
-  background-color: #ffe4c410;
   margin-top: 2.0rem;
   border-radius: 5rem;
 }
 
 .projects-myworks img {
-  position: block;
-  border: 1px solid #000;
-  overflow: hidden;
   width: center;
   margin: center;
-  max-width: 245px;
-  max-height: 200px;
+  max-width: 350px;
+  max-height: 150px;
   width: auto;
   height: auto;
-  border: none;
+  border: 5rem;
 }
 
 .projects-myworks img {
@@ -59,7 +56,7 @@ a:active {
 .projects-myworks img:hover {
   -moz-transform: scale(1);
   -webkit-transform: scale(1);
-  transform: scale(3);
+  transform: scale(2);
 }
 
 .footer {
