@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,13 @@
 <div class="title-h1-skills-before-content">
     <h1>Possuo algumas Skills, vou descrever elas embaixo.</h1>
 </div>
+
 <body>
     <div class="Content-Skills">
         <component class="title-skills-web">Skills Web</component>
-        
+
         <h6>
-        
+
             <img src="html.png" alt="html">
             <component>HTML</component>
         </h6>
@@ -25,7 +27,7 @@
             <img src="css.jpg" alt="css">
             <component>CSS</component>
         </h6>
-        
+
         <h6>
             <img src="javascript.png" alt="javascript">
             <component>JAVASCRIPT</component>
@@ -36,7 +38,19 @@
     </div>
 
 </body>
+
+<div>
+    <button id="back-to-top">Voltar ao topo</button>
+</div>
+
 <footer class="footer-skills">
     <p>Site desenvolvido por: <strong>Mathews Vianna</strong>, todos os direitos reservados ao criador do site.</p>
 </footer>
+<script>
+    var btn = document.querySelector("#back-to-top");
+    btn.addEventListener("click", function () {
+        window.scrollTo(0, 0);
+    });
+</script>
+
 </html>

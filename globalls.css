@@ -7,15 +7,17 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
-    zoom: 1; /* Coloca o zoom em 100% */
+    zoom: 1;
+    /* Coloca o zoom em 100% */
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
-    font-family: 'Lato','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lato', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden; /*isto esconde tudo o que va para alem do eixo x*/
+    overflow-x: hidden;
+    /*isto esconde tudo o que va para alem do eixo x*/
 }
 
 .scrollbar {
@@ -28,29 +30,44 @@
 * {
     scrollbar-width: thin;
     scrollbar-color: #ffe4c4 rgb(37, 34, 30);
-  }
-  
-  /* Works on Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
     width: 12px;
-  }
-  
-  *::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-track {
     background: #4c453c;
-  }
-  
-  *::-webkit-scrollbar-thumb {
+}
+
+*::-webkit-scrollbar-thumb {
     background-color: #ffe4c4fa;
     border-radius: 20px;
     border: 3px thin #ffe4c410;
-  }
+}
 
-  .footer,p {
+.footer,
+p {
     text-align: center;
     font-weight: 200;
     background-color: #ffe4c410;
     color: #ffe4c4fa;
     border-radius: 5px;
+}
+
+#back-to-top {
+    position: fixed;
+    cursor: pointer;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 15px;
+    color:#000000;
+    background-color: #ffe4c4fa;
+}
+
+#back-to-top:hover{
+    color: #665a4cfa;
 }
 
 html,
