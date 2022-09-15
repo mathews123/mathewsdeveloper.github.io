@@ -69,7 +69,20 @@ p {
 #back-to-top:hover{
     color: #665a4cfa;
 }
-
+  @media screen and (max-width: 239px) {
+    #back-to-top {
+        display:none;
+     }
+  }
+    
+    @media screen and (max-width: 608px) {
+      #back-to-top {
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        position: static;
+       }
+    }
+    
 html,
 body {
     width: 100%;
@@ -88,7 +101,7 @@ a:hover {
 }
 
 a:visited {
-    color: #ffe4c410;
+    color: none;
 }
 
 body {

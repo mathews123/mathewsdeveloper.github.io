@@ -28,9 +28,9 @@
 a:hover,
 a:focus,
 a:active {
+  cursor: pointer;
   text-align: center;
   font-size: 1.2rem;
-  text-decoration: underline;
   color: #ffe4c4;
   display: block;
   margin-top: 2.0rem;
@@ -54,8 +54,8 @@ a:active {
 }
 
 .projects-myworks img:hover {
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
+  -moz-transform: scale(4.7);
+  -webkit-transform: scale(4.7);
   transform: scale(4.7);
 }
 
@@ -84,8 +84,8 @@ a:active {
 
 @media screen and (max-width: 210px) {
   .projects-myworks img {
-    -moz-transform: scale(0.6);
-    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
     transform: scale(0.8);
     max-width:100px;
     max-height:150px;
@@ -108,8 +108,8 @@ a:active {
 
 @media screen and (max-width: 410px) {
   .projects-myworks img {
-    -moz-transform: scale(0.8);
-    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
     transform: scale(0.2);
     max-width:100px;
     max-height:150px;
@@ -120,8 +120,8 @@ a:active {
 
 @media screen and (max-width: 520px) {
   .projects-myworks img {
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
+    -moz-transform: scale(0.3);
+    -webkit-transform: scale(0.3);
     transform: scale(0.3);
     max-width:100px;
     max-height:150px;
@@ -132,9 +132,9 @@ a:active {
 
 @media screen and (max-width: 674px) {
   .projects-myworks img {
-    -moz-transform: scale(1.9);
-    -webkit-transform: scale(1.9);
-    transform: scale(1);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
     max-width:100px;
     max-height:150px;
     width: auto;
@@ -144,8 +144,8 @@ a:active {
 
 @media screen and (max-width: 1452px) {
   .projects-myworks img {
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.7);
+    -webkit-transform: scale(1.7);
     transform: scale(1.7);
     max-width:100px;
     max-height:150px;
@@ -192,4 +192,3 @@ a:active {
     height: auto;
   }
 }
-
