@@ -170,7 +170,6 @@ p {
 
 @media only screen and (max-width: 352px) {
     form {
-        flex-wrap: wrap;
         position: block;
         width: 250px;
     }
@@ -178,7 +177,6 @@ p {
 
 @media only screen and (max-width: 384px) {
     form {
-        flex-wrap: wrap;
         position: block;
         width: 250px;
     }
@@ -186,7 +184,6 @@ p {
 
 @media only screen and (max-width: 221px) {
     form {
-        flex-wrap: wrap;
         position: block;
         width: 140px;
     }
