@@ -142,14 +142,14 @@ p {
 }
 @media only screen and (max-width: 470px) {
     form {
-        position: relative;
+        position: block;
         width: 300px;
     }
 }
 
 @media only screen and (max-width: 470px) {
     label {
-        position: relative;
+        position: block;
         width: 50px;
     }
 }
