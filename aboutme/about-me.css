@@ -96,6 +96,16 @@
     }
 }
 
+/* 1080P Aspect Ratio */
+@media screen and (width: 1920px) {
+    .footer-about-me {
+        display: flex;
+        margin-top: 23%;
+        margin-left: 42%;
+        margin-right: 42%;
+    }
+}
+
 /* Galaxy Fold Aspect Ratio */
 @media screen and (width: 280px) {
     .footer-about-me {
