@@ -121,14 +121,6 @@ p {
     }
 }
 
-@media only screen and (width: 640px) {
-    form {
-        margin-top: 0rem;
-        position: block;
-        width: 300px;
-    }
-}
-
 @media only screen and (width: 600px) {
     form {
         margin-top: 0rem;
@@ -165,7 +157,7 @@ p {
 @media only screen and (width: 640px) {
     label {
         position: block;
-        width: 50px;
+        width: 90px;
     }
 }
 
