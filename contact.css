@@ -1,0 +1,304 @@
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 7px solid #e6cba932;
+    border-radius: 1em;
+    background-color: #ac9a853c;
+}
+
+h1,
+contact-form {
+    text-align: center;
+    color: #e6cba9;
+    margin-top: 10rem;
+}
+
+body {
+    overflow: hidden;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: #e6cba9;
+}
+
+input,
+textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px;
+    /* mesmo tamanho que os elementos do tipo label */
+}
+
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+}
+
+button {
+    cursor: pointer;
+    border: #000000;
+    background-color: #e6cba91c;
+    color: #e6cba9;
+}
+
+button,
+:hover {
+    color: #e6cba9;
+    background-color: #ae9a8200
+}
+
+span,
+a,
+Socials-links {
+    display: flex;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin: 20px;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+a,
+:visited {
+    text-decoration: none;
+    color: #e6cba9;
+}
+
+.footer,
+p {
+    text-align: center;
+    font-weight: 200;
+    background-color: #ffe4c410;
+    color: #ffe4c4fa;
+    border-radius: 5px;
+    margin-top: 22.5rem;
+}
+
+@media only screen and (max-width: 1224px) {
+    h1, contact-form {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    form {
+        position: relative;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    label {
+        position: relative;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 352px) {
+    form {
+        flex-wrap: wrap;
+        position: block;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    form {
+        flex-wrap: wrap;
+        position: block;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 221px) {
+    form {
+        flex-wrap: wrap;
+        position: block;
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+
+    input,
+    textarea {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 352px) {
+
+    input,
+    textarea {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    input,
+    textarea {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 248px) {
+
+    input,
+    textarea {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 254px) {
+
+    input,
+    textarea {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 221px) {
+
+    input,
+    textarea {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 191px) {
+
+    input,
+    textarea {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 151px) {
+
+    input,
+    textarea {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    form {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 254px) {
+    form {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 221px) {
+    form {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 191px) {
+    form {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 151px) {
+    form {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .button {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 353px) {
+    .button {
+        padding: 10px;
+        width: 200px;
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 221px) {
+    .button {
+        padding: 1px;
+        width: 200px;
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 191px) {
+    .button {
+        padding: 1px;
+        width: 50px;
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 151px) {
+    .button {
+        border: 0;
+        padding: 1px;
+        width: 50px;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
