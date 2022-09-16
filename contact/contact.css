@@ -57,7 +57,7 @@ textarea {
     vertical-align: top;
 
     /* Para dar espaço suficiente para digitar algum texto */
-    height: 5em;
+    height: 7em;
 
     /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
     resize: vertical;
@@ -121,6 +121,33 @@ p {
     }
 }
 
+@media only screen and (width: 640px) {
+    form {
+        margin-top: 0rem;
+        position: block;
+        width: 300px;
+    }
+}
+
+@media only screen and (width: 600px) {
+    form {
+        margin-top: 0rem;
+        position: block;
+        width: 300px;
+    }
+}
+
+@media only screen and (width: 360px) {
+    h1, contact-form {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (width: 320px) {
+    h1, contact-form {
+        margin-top: 010px;
+    }
+}
 @media only screen and (max-width: 470px) {
     form {
         position: relative;
@@ -129,6 +156,20 @@ p {
 }
 
 @media only screen and (max-width: 470px) {
+    label {
+        position: relative;
+        width: 50px;
+    }
+}
+
+@media only screen and (width: 640px) {
+    label {
+        position: block;
+        width: 50px;
+    }
+}
+
+@media only screen and (width: 600px) {
     label {
         position: relative;
         width: 50px;
@@ -235,6 +276,18 @@ p {
     }
 }
 
+@media only screen and (width: 320px) {
+    form {
+        width: 250px;
+    }
+}
+
+@media only screen and (width: 240px) {
+    form {
+        width: 160px;
+    }
+}
+
 @media only screen and (max-width: 221px) {
     form {
         width: 140px;
@@ -259,12 +312,73 @@ p {
     }
 }
 
+@media only screen and (width: 600px) {
+    .button {
+        width: 200px;
+    }
+}
+
+@media only screen and (width: 414px) {
+    .button {
+        padding: 10px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 4.5rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (width: 375px) {
+    .button {
+        padding: 10px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 3rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (width: 384px) {
+    .button {
+        padding: 10px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 3rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (width: 360px) {
+    .button {
+        padding: 10px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 3rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
 @media only screen and (max-width: 353px) {
     .button {
         padding: 10px;
         width: 200px;
         display: inline-block;
         margin: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (width: 320px) {
+    .button {
+        padding: 10px;
+        width: 200px;
+        display: block;
+        margin-left: 3rem;
         cursor: pointer;
         border-radius: 4px;
     }
