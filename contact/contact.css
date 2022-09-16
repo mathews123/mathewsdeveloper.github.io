@@ -154,20 +154,6 @@ p {
     }
 }
 
-@media only screen and (width: 640px) {
-    label {
-        position: block;
-        width: 90px;
-    }
-}
-
-@media only screen and (width: 600px) {
-    label {
-        position: relative;
-        width: 50px;
-    }
-}
-
 @media only screen and (max-width: 352px) {
     form {
         position: block;
