@@ -121,6 +121,21 @@ p {
     }
 }
 
+@media only screen and (max-width: 1224px) {
+    body{
+        overflow-y: visible;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer{
+        font-weight: 200;
+        border-radius: 5px;
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+
 @media only screen and (width: 640px) {
     h1, contact-form {
         height: 22px;
@@ -346,7 +361,8 @@ p {
 
 @media only screen and (width: 320px) {
     form {
-        width: 200px;
+        width: 190px;
+        height: 233px;
     }
 }
 
@@ -444,10 +460,20 @@ p {
 
 @media only screen and (width: 320px) {
     .button {
-        padding: 10px;
+        padding: 35px;
         width: 200px;
         display: block;
-        margin-left: 1.5rem;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 298px) {
+    .button {
+        padding: 1px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 35px;
         cursor: pointer;
         border-radius: 4px;
     }
@@ -497,7 +523,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 151px) {
+@media only screen and (max-width: 50px) {
     .button {
         border: 0;
         padding: 1px;
@@ -519,6 +545,17 @@ p {
     }
 }
 
+@media only screen and (max-width: 336px) {
+    .button {
+        padding-top: 1rem;
+        margin-left: 1px;
+        width: 100px;
+        display: inline;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+}
+
 @media only screen and (width: 640px) {
     .button {
         margin-left: 50px;
@@ -529,9 +566,13 @@ p {
     }
 }
 
-@media only screen and (max-width: 1024px) {
-    .footer {
-        display: none;
+@media only screen and (width: 248px) {
+    .button {
+        margin-left: 20px;
+        width: 200px;
+        display: block;
+        cursor: pointer;
+        border-radius: 4px;
     }
 }
 
