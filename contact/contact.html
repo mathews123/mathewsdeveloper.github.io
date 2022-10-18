@@ -10,23 +10,25 @@
     <title>Contato</title>
 </head>
 
-<body>
+<body>    
+  </div>
     <h1 class="contact-form">Entre em contato.</h1>
     <form action="https://formsubmit.co/mathews.vianna99@gmail.com" method="POST">
         <div class="form-contact">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="usuario_nome" required />
+            <input type="text" id="nome" name="Nome do usuário" required />
         </div>
         <div>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="usuario_email" required />
+            <input type="email" required="required" class="input-text" name="E-mail do usuário" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$ required"/>
         </div>
         <div>
             <label for="msg">Mensagem:</label>
-            <textarea id="msg" name="usuario_msg" required></textarea>
+            <textarea id="msg" name="Mensagem do usuário" required></textarea>
         </div>
         <div>
-            <input type="hidden" name="_next" value="https://mathews123.github.io/mathewsdeveloper.github.io/thanks/thanks.html">
+            <input type="hidden" name="_next"
+                value="https://mathews123.github.io/mathewsdeveloper.github.io/thanks/thanks.html">
         </div>
 
         <div class="button">
@@ -36,15 +38,18 @@
     <div>
         <span class="Socials-links">
             <a href="https://github.com/mathews123" target="_blank" rel="noopener noreferrer"
-            class="fa-brands fa-github fa-2xl"></a>
+                class="fa-brands fa-github fa-2xl"></a>
 
             <a href="https://www.linkedin.com/in/mathews-pinheiro-21bb23210/" target="_blank" rel="noopener noreferrer"
-            class="fa-brands fa-linkedin fa-2xl"></a>
+                class="fa-brands fa-linkedin fa-2xl"></a>
         </span>
     </div>
+    </script>
     <footer class="footer">
-        <p>Site desenvolvido por: 
-            <strong>Mathews Vianna <i class="fa-solid fa-heart"></i></strong>, todos os direitos reservados ao criador do site.</p>
+        <p>Site desenvolvido por:
+            <strong>Mathews Vianna <i class="fa-solid fa-heart"></i></strong>, todos os direitos reservados ao criador
+            do site.
+        </p>
     </footer>
 </body>
 

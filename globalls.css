@@ -14,7 +14,6 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
-    font-family: 'Lato', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     /*isto esconde tudo o que va para alem do eixo x*/
